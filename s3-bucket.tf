@@ -8,7 +8,7 @@ module "s3_bucket" {
   acl    = "private"
 
   acceleration_status = "false"
-  bucket = " ${bucket-prefix}-bucket"
+  bucket = "yair-bass-bucket-chip"
   bucket_prefix = "yair-bass"
  
   versioning = {
