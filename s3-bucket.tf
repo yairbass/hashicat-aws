@@ -5,5 +5,4 @@ module "s3_bucket" {
   version = "2.2.0"
 
   bucket_prefix = "yair-bass"
-  request_payer = " BucketOwner"
 }
